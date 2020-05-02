@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+}
+
+.Logo {
+    height: 15vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+}
+
+.Conten {
+    display: grid;
+    grid-template-columns: 300px 1300px;
+    margin-left: 50px;
+
+}
+
+.List {
+    list-style-type: none;
+}
+.App-header {
+    background-color: #014656;
+    min-height: 100vh;
+
+}
+
