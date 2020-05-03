@@ -13,16 +13,48 @@
 .Conten {
     display: grid;
     grid-template-columns: 300px 1300px;
-    margin-left: 50px;
-
+    margin-left: 30px;
+    grid-gap: 10px;
 }
-
 .List {
+
+    border-radius: 25px;
+    background-color: #00a2ad;
     list-style-type: none;
+    height: 290px;
 }
+.Icon {
+    height: 5vmin;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.IconT {
+    display: inline-flex;
+    font-size: 30px;
+    font-family: 'Geo Sans';
+    vertical-align: top;
+    margin-top: 15px;
+}
+
 .App-header {
     background-color: #014656;
     min-height: 100vh;
 
 }
 
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+    src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff") format("woff"), url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk") format("svg");
+}
+
+@font-face {
+    font-family: "Geo Sans";
+    src:url(GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: "Geo Sans Oblique";
+    src: url(GeosansLight-Oblique.ttf);
+}

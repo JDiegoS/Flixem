@@ -1,11 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './Layout.css';
-import logo from './logo.png';
-import home from './home.png';
-import search from './search.png';
-import chat from './chat.png';
-import profile from './profile.png';
-import dots from './more.png';
+import logo from './Images/logo.png';
+import home from './Images/home.png';
+import search from './Images/search.png';
+import chat from './Images/chat.png';
+import profile from './Images/profile.png';
+import dots from './Images/more.png';
+import Home from './Home';
+import Search from './Search';
+import Chat from './Chat';
+import Profile from './Profile';
+import Movie from './Movie';
+import { Link } from 'react-router-dom';
 
 
 export default class Layout extends React.Component {
@@ -13,30 +20,49 @@ export default class Layout extends React.Component {
     constructor() {
         super();
         this.state = {
-            title: "Hello World",
+            page: "Home",
         };
     }
     
     
     render() {
         return (
-            <body className="App-header">
-                <div>
-                    <img src={logo} className="Logo" />
-                    <div className="Conten">
-                        <ul className="List">
-                            <li><img src={home} /></li>
-                            <li><img src={search} /></li>
-                            <li><img src={profile} /></li>
-                        </ul>
-                        <h1> sfg </h1>
-                    </div>
+            <Router>
+
+                <body className="App-header">
+                    <div>
+                        <img src={logo} className="Logo" />
+                        <div className="Conten">
+                            <ul className="List">
+                                <Link style={{ color: "black", textDecoration: "none" }} to='/'>
+                                    <li><img src={home} className="Icon" /><header className="IconT"> Home </header></li>
+                                </Link>
+                                <Link style={{ color: "black", textDecoration: "none" }} to='/search'>
+                                    <li><img src={search} className="Icon" /><header className="IconT"> Search </header></li>
+                                </Link>
+                                <Link style={{ color: "black", textDecoration: "none" }} to='/chat'>
+                                    <li><img src={chat} className="Icon" /><header className="IconT"> Chat </header></li>
+                                </Link>
+                                <Link style={{ color: "black", textDecoration: "none" }} to='/profile'>
+                                    <li><img src={profile} className="Icon" /><header className="IconT"> Profile </header></li>
+                                </Link>
+                            </ul>
+                            <div>
+                                <Route path="/" exact component={Home} />
+                                <Route path="/search" component={Search} />
+                                <Route path="/chat" component={Chat} />
+                                <Route path="/profile" component={Profile} />
+                                <Route path="/movie" component={Movie} />
+                            </div>
+                        </div>
 
                     
-                </div>
-            </body>
+                    </div>
+                </body>
+            </Router>
 
         );
     };
+        
 
 }
