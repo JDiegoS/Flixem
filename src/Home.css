@@ -1,33 +1,47 @@
 .Title1 {
-
     font-family: "Lemon Milk";
     text-align: center;
     padding-top: 13px;
+    color: #f0efee;
+    
 }
 .Title2 {
     font-family: "Geo Sans";
-    padding-left: 30px;
+    text-align: center;
     padding-top: 13px;
+    color: #f0efee;
 }
 
 .ContainerT {
     margin-top: 15px;
     border-radius: 25px;
-    background-color: #00a2ad;
-    height: 60px;
+    background-color: #4c4947;
+    min-height: 60px;
+    width: 1300px;
+    
+}
+.ContainerH {
+    margin-top: 15px;
+    border-radius: 25px;
+    background-color: #4c4947;
+    min-height: 60px;
+    width: 400px;
+    margin-left: 450px;
+
 }
 .Containers {
     margin-top: 15px;
     border-radius: 25px;
-    background-color: #00a2ad;
+    background-color: #4c4947;
     width: 410px;
-    height: 515px;
-    
+    height: 655px;
 }
 .Grids {
     display: grid;
     grid-template-columns: 433px 433px 433px;
     grid-gap: 10px;
+    height: 590px;
+    
 }
 .Images {
     border-radius: 25px;
@@ -42,6 +56,8 @@
     font-family: "Geo Sans";
     padding-left: 20px;
     padding-right: 10px;
+    color: #f0efee;
+    font-size: x-large;
 }
 .More {
     float: right;
@@ -50,6 +66,19 @@
     padding-right: 30px;
 
 }
+.SearchI {
+    width: 1000px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: large;
+    margin-top: 15px;
+    background-color: #222022;
+    color: #efedef;
+    padding-left: 20px;
+    font-family: "Geo Sans";
+    font-size: x-large
+}
+
 
 @font-face {
     font-family: "Geo Sans";

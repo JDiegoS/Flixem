@@ -1,0 +1,75 @@
+.Selectm {
+    background-color: #222022;
+    font-family: "Geo Sans";
+    font-size: x-large;
+    color: #efedef;
+    border-radius: 10px;
+    width: 150px;
+    height: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 40px;
+}
+.Gridp {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+}
+.ContainerP {
+    margin-top: 15px;
+    border-radius: 25px;
+    background-color: #4c4947;
+    min-height: 80px;
+    width: 500px;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.ContainerU {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: #4c4947;
+    min-height: 80px;
+    width: 500px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.Title3 {
+    font-family: "Geo Sans";
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #f0efee;
+}
+.Inputu {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 40px;
+    background-color: #222022;
+    color: #efedef;
+    font-family: "Geo Sans";
+    font-size: x-large
+}
+.Inputus {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 40px;
+    background-color: #222022;
+    color: #efedef;
+    font-family: "Geo Sans";
+    font-size: x-large
+}

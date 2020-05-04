@@ -3,11 +3,13 @@
 }
 
 .Logo {
+
     height: 15vmin;
     display: block;
     margin-left: auto;
     margin-right: auto;
     pointer-events: none;
+
 }
 
 .Conten {
@@ -17,11 +19,14 @@
     grid-gap: 10px;
 }
 .List {
-
+    position: fixed;
     border-radius: 25px;
-    background-color: #00a2ad;
+    background-color: #4c4947;
     list-style-type: none;
     height: 290px;
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 0px;
 }
 .Icon {
     height: 5vmin;
@@ -35,11 +40,12 @@
     font-family: 'Geo Sans';
     vertical-align: top;
     margin-top: 15px;
+    color: #efedef;
 }
 
 .App-header {
-    background-color: #014656;
-    min-height: 100vh;
+    background-color: #222022;
+    min-height: 950px;
 
 }
 
